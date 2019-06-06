@@ -1,2 +1,4 @@
+import myname
 
-print ('hello')
+name = myname.get_name()
+print("hello {}".format(name))
